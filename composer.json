@@ -1,0 +1,29 @@
+{
+    "name": "swooliy/watcher",
+    "description": "A File Change Watching Library Based on swoole and inotify.",
+    "keywords": [
+        "library",
+        "inotify",
+        "swoole",
+        "autoload",
+        "file change watch"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ney Chang",
+            "email": "zoobile@gmail.com",
+            "homepage": "https://github.com/swooliy/watcher"
+        }
+    ],
+    "require": {
+        "ext-swoole": "*",
+        "ext-inotify": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swooliy\\Watcher\\": "./src/Swooliy/Watcher/"
+        }
+    }
+}
